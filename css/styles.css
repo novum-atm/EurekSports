@@ -836,7 +836,7 @@ screen and (-ms-high-contrast: none) {
 #banner .logo {
 	position: absolute;
 	top: 25%;
-	left: 10%;
+	left: 9%;
 	opacity: 0;
 }
 
@@ -889,7 +889,7 @@ body.active #banner .blacksection::before {
 
 body.active #banner h2 {
 	opacity: 1;
-	right: 10%;
+	right: 9%;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition-delay: 1.5s;
@@ -904,7 +904,7 @@ body.active #banner h2 {
 	padding: 0;
 	text-align: right;
 	right: 0%;
-	top: 50%;
+	top: 56%;
 	transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	opacity: 0;
@@ -935,13 +935,13 @@ body.active #banner h2 {
 } */
 
 #banner .blacksection::before {
-	width: 150%;
+	width: 200%;
 	height: 0;
-	background-color: #000;
+	background-color: #141414;
 	position: absolute;
 	right: -1300px;
-	transform: rotate(133deg);
-	-ms-transform: rotate(133deg);
+	transform: rotate(128deg);
+	-ms-transform: rotate(128deg);
 	content: "";
 	top: 0;
 }
@@ -1057,7 +1057,7 @@ body.active .mscroll {
 	padding: 4px 10px;
 	text-align: center;
 	color: #fff;
-	background: #000;
+	background: #141414;
 	z-index: 999;
 	width: 56px;
 	height: 50px;
@@ -1097,7 +1097,7 @@ body.active .mscroll {
 .services h2 {
 	margin-bottom: 1.25rem;
 	text-align: center;
-	color: #000;
+	color: #141414;
 }
 
 .services .p-large {
@@ -1840,16 +1840,16 @@ body.active .mscroll {
 .slider-2 h2 {
 	margin-bottom: 2.5rem;
 	text-align: center;
-	color: #000;
+	color: #141414;
 }
 
 .slider-2 .testimonial-text {
-	color: #000;
+	color: #141414;
 }
 
 .slider-2 .testimonial-author {
 	font-size: small;
-	color: #000;
+	color: #141414;
 }
 
 .slider-2 .slider-container {
@@ -2280,7 +2280,7 @@ body.active .mscroll {
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #000;
+	background-color: #141414;
 }
 
 .footer .footer-col {
@@ -2631,13 +2631,13 @@ a:hover.whatsapp-page {
 		transform: translateY(-50%);
 		-ms-transform: translateY(-50%);
 		opacity: 0;
-		700 2.25rem/2.75rem "Montserrat", sans-serif
+		font: 700 2.25rem/2.75rem "Montserrat", sans-serif
 	}
 
 	#banner .blacksection::before {
 		width: 150%;
 		height: 0;
-		background-color: #000;
+		background-color: #141414;
 		position: absolute;
 		right: -1150px;
 		transform: rotate(124deg);
